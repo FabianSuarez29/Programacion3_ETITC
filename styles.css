@@ -1,8 +1,29 @@
 body{
-    background-color: beige;
-    max-width: 89%;
-
-    margin: 0 auto;
-    top: 0 auto;
+    background-image: url("images/fondo.JPG"); 
+    background-size: cover;
+    color:black;
+    font-family:initial;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 1200px;
 }
-
+.container{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-right: 3em; 
+    padding-left: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 1%;
+}
+h1{
+    text-align: center;
+    color: black;
+    text-shadow: 3px 3px 2px rgb(126, 52, 52);
+    letter-spacing: 6px;
+    word-spacing: 4px; 
+    font-size: 3em;
+}
+.img1{
+    border-radius: 5%;
+}
