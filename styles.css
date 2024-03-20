@@ -16,7 +16,22 @@ body{
     padding-top: 1em;
     padding-bottom: 8px;
     border-radius: 10px;
-    /* text-align: center; */
+    text-align: center;
+}
+
+.head{
+    display: flex;
+    margin-left: 1em;
+    align-items: center;
+}
+
+.h1{
+    color: black;
+    text-shadow: 3px 3px 2px rgb(143, 12, 12);
+    letter-spacing: 6px;
+    word-spacing: 4px; 
+    font-size: 3em;
+    margin-left: 1em;
 }
 
 a.title {
@@ -38,25 +53,6 @@ li.title {
     padding-bottom: 1em;
     border-radius: 10px;
     margin-top: 2%;
-}
-
-h1{
-    text-align: center;
-    color: black;
-    text-shadow: 3px 3px 2px rgb(126, 52, 52);
-    letter-spacing: 6px;
-    word-spacing: 4px; 
-    font-size: 3em;
-}
-
-.h1v2{
-    color: black;
-    text-shadow: 3px 3px 2px rgb(143, 12, 12);
-    letter-spacing: 6px;
-    word-spacing: 4px; 
-    font-size: 3em;
-    display: inline;
-    margin-left: 1em;
 }
 
 .a1{
@@ -90,5 +86,4 @@ h1{
     margin-left: 5em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-
 }
