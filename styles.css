@@ -10,7 +10,8 @@ body{
 }
 
 .header{
-    background-color: rgb(126, 52, 52);
+    background: linear-gradient(to bottom right, rgb(154, 3, 30), 65%, rgb(227, 100, 20));
+    border: rgb(125, 10, 10) 2px solid;
     padding-right: 1em; 
     padding-left: 1em;
     padding-top: 1em;
@@ -27,7 +28,7 @@ body{
 
 .h1{
     color: black;
-    text-shadow: 3px 3px 2px rgb(143, 12, 12);
+    text-shadow: 3px 3px 2px rgb(251, 139, 36);
     letter-spacing: 6px;
     word-spacing: 4px; 
     font-size: 3em;
@@ -40,17 +41,17 @@ a.title {
 }
 
 li.title {
-    display: inline;
+    display: inline; 
     padding: 0 2%;
 }
 
 .container{
     background-color: rgba(255, 255, 255, 0.80);
-    border: rgb(126, 52, 52) 2px solid;
+    border: rgb(125, 10, 10) 2px solid;
     padding-right: 3em; 
     padding-left: 3em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     border-radius: 10px;
     margin-top: 2%;
 }
@@ -74,10 +75,18 @@ li.title {
     color: black;
 }
 
+.a3{
+    color: white;
+    outline: none;
+}
+.a3:hover {
+    color: black;
+}
+
 .img1{
     width: 12em;
     border-radius: 5%;
-    border: rgb(126, 52, 52) 2px solid;
+    border: rgb(227, 100, 20) 2px solid;
 }
 
 .img2{
@@ -86,4 +95,5 @@ li.title {
     margin-left: 5em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+    border: rgb(227, 100, 20) 2px solid;
 }
