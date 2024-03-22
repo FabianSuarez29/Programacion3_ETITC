@@ -84,16 +84,23 @@ li.title {
 }
 
 .img1{
-    width: 12em;
-    border-radius: 5%;
-    border: rgb(227, 100, 20) 2px solid;
-}
-
-.img2{
     width: 8em;
     border-radius: 10px;
     margin-left: 5em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     border: rgb(227, 100, 20) 2px solid;
+}
+
+.img2{
+    width: 12em;
+    border-radius: 5%;
+    border: rgb(227, 100, 20) 2px solid;
+}
+
+.img3{
+    width: 100%;
+    border-radius: 5%;
+    border: rgb(227, 100, 20) 2px solid;
+    margin-top: -1em;
 }
